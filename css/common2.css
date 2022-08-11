@@ -1,0 +1,288 @@
+@charset "utf-8";
+
+body { height:200vh; }
+#certiTitle { width:100%; height:780px;
+              background:url(../images/certi1.jpg) no-repeat center / cover;
+              position:relative;  }
+#certiTitle::before{ content:""; position: absolute; top:0;left:0;
+                      width:100%; height:780px; background:rgba(0,0,0,0.5);  }
+.certi1 { width:1200px; height:780px; margin: 0 auto; position:relative; }
+.certi1 h2 { color:#fff; font-size:64px;  padding-top:400px; margin-bottom: 50px;
+            text-align: right; box-sizing: border-box;}
+.certi1 p { color:#fff; font-size:32px; text-transform: uppercase;
+            text-align: right; }
+
+#certiSub { width:100%; height: 700px;
+            /* background: url(../images/certi2.jpg) no-repeat center / cover; */
+           }
+.certi2 { width:1200px; height:750px; margin:0 auto; text-transform: uppercase;}
+.certi2 h2 { margin-left:80px; font-size:48px; text-align: center;padding:80px 0;  box-sizing: border-box;}
+.certi2 h2 > span { color:#39f; font-size:54px;}
+.certi21 { width:1100px; height:250px; background:#f8edb0; margin:0 auto; margin-top:70px;  padding:50px 0; box-sizing: border-box;}
+.certi21 p { text-align: center; font-size: 22px; margin: 10px 0;}
+.certi21 p span { text-decoration: underline; color:#39f;}
+
+#certiJop { width:100%; height:700px; background:#03117a; text-transform: uppercase;}
+.certi3 { width:1200px; height:700px; margin: 0 auto; }
+.certi3 h2 { font-size: 42px; padding:50px 0; text-align:center;
+              color:#fff; box-sizing: border-box;}
+
+
+.certi3 ul { width:1200px; height: 450px; margin: 0 auto; }
+.certi3 ul li { float: left; width:330px; height: 450px; text-align: center;margin: 0 35px;
+                background:#fff; border-radius: 15px 15px; position:relative; }
+
+.certiFloat { font-size:24px;  color:#000; margin: 20px 0; position: relative;}
+.const { font-size: 30px; width: 220px; height:200px; color:#39f;
+        position: absolute; top: 180px; left: 55px; }
+.const1 { background:url(../images/bookmark.png) no-repeat center / cover; }
+.const2 { background:url(../images/inbox.png) no-repeat center / cover; }
+.const3 { background:url(../images/clock.png) no-repeat center / cover; }
+.con { display: none; font-size: 22px; padding:20px 30px; box-sizing: border-box;}
+
+
+#tableDi { width:100%; text-transform: uppercase;}
+.tableDiv { width:1200px; margin: 0 auto; }
+.tableDiv h2 { font-size: 48px; padding: 50px 0; box-sizing: border-box;}
+.tableDiv p { font-size: 28px; padding: 30px 0; box-sizing: border-box;}
+.tableDiv ul {  }
+.tableDiv ul li { margin-left:30px; list-style: inherit; font-size:18px; }
+
+table { margin: 0 auto; width:1200px; border-collapse: collapse;  text-align: center;}
+tr { margin: 0; padding:0; }
+td { border: 1px solid #000; margin: 0; padding:0; }
+.table1 { background:silver; color:#39f; font-size: 24px; font-weight:bold;}
+.tb1 { width: 20%; font-size: 24px;  }
+.tb2 { width: 60%; font-size: 18px; }
+.tb3 { width: 20%; font-size: 18px; }
+
+.table2 { background:silver; color:#39f; font-size: 24px; font-weight:bold; }
+.tb21 { width:15%; font-size: 24px; }
+.tb22 { width:15%; font-size: 18px;}
+.tb23 { width:20%; font-size: 18px;}
+.tb24 { width:15%; font-size: 18px;}
+.tb25 { width:35%; font-size: 18px;}
+
+#certiWork { width: 100%; height: 700px; text-transform: uppercase; }
+.certiWork1 { text-align: left; width:1200px; margin: 0 auto; }
+.certiWork1 h2 { font-size: 48px; padding: 50px 0; }
+.certiWork1 > p { font-size: 18px; margin:5px 15px; }
+
+
+.certican { margin: 70px 0; }
+.certican li { width: 550px; margin-left: 40px; float:left; }
+
+.certiWork2 { width: 530px; height: 300px; border: 1px solid #000;}
+.certiWork2 h3 { color:#fff; font-size: 28px; text-align: center; width:530px; height: 80px; line-height:80px; background:#39f;
+                  border-bottom: 1px solid #000;  }
+.certiWork2 ul {  }
+.certiWork2 ul li { margin-left: 20px; font-size: 16px; margin-top: 15px; }
+
+.certiWork3 { width: 530px; height: 300px; border:1px solid #000; }
+.certiWork3 h3 { color:#fff; font-size:28px; text-align: center; width:530px; height:80px; line-height: 80px;
+                background:#39f; border-bottom:1px solid #000;  }
+.certiWork3 ul {  }
+.certiWork3 ul li {  margin-left: 20px; font-size: 16px; margin-top: 15px; }
+
+
+@media screen and ( min-width:801px ) and ( max-width:1200px ) {
+
+  body { min-width: 801px; max-width:1200px; height:200vh; }
+  #certiTitle { width:100%; height:780px;
+                background:url(../images/certi1.jpg) no-repeat center / cover;
+                position:relative;  }
+  #certiTitle::before{ content:""; position: absolute; top:0;left:0;
+                        width:100%; height:780px; background:rgba(0,0,0,0.5);  }
+  .certi1 { width:94%; height:780px; margin: 0 auto; position:relative; }
+  .certi1 h2 { color:#fff; font-size:2.5rem;  padding-top:400px; margin-bottom: 50px;
+              text-align: right; box-sizing: border-box;}
+  .certi1 p { color:#fff; font-size:1.8rem; text-transform: uppercase;
+              text-align: right; }
+
+  #certiSub { width:100%; height: 700px; }
+  .certi2 { width:100%; height:680px; margin:0 auto; text-transform: uppercase;}
+  .certi2 h2 { margin-left:80px; font-size:2.5rem; text-align: center;padding:80px 0;  box-sizing: border-box;}
+  .certi2 h2 > span { color:#39f; font-size:2.8rem;}
+  .certi21 { width:94%; height:250px; background:#f8edb0; margin:0 auto; margin-top:70px;  padding:40px 0; box-sizing: border-box;}
+  .certi21 p { text-align: center; font-size: 1rem; margin: 20px 0; line-height:}
+  .certi21 p span { text-decoration: underline; color:#39f;}
+
+  #certiJop { width:100%; height:700px; background:#03117a; text-transform: uppercase;}
+  .certi3 { width:100%; height:700px; margin: 0 auto; }
+  .certi3 h2 { font-size: 2.2rem; padding:50px 0; text-align:center;
+                color:#fff; box-sizing: border-box;}
+
+
+  .certi3 ul { width:96%; height: 450px; margin: 0 auto; }
+  .certi3 ul li { float: left; width:30%; height: 450px; text-align: center;margin: 0 1%;
+                  background:#fff; border-radius: 15px 15px; position:relative; }
+
+  .certiFloat { font-size:1.2rem;  color:#000; margin: 20px 0; position: relative;}
+  .const { font-size: 1.4rem; width: 140px; height:140px; color:#39f;
+          position: absolute; top: 180px; left: 22%; }
+  .const1 { background:url(../images/bookmark.png) no-repeat center / cover; }
+  .const2 { background:url(../images/inbox.png) no-repeat center / cover; }
+  .const3 { background:url(../images/clock.png) no-repeat center / cover; }
+  .con { font-size: 1.1rem; padding:10px 20px; box-sizing: border-box;}
+
+
+  #tableDi { width:100%; text-transform: uppercase;}
+  .tableDiv { width:96%; margin: 0 auto; }
+  .tableDiv h2 { font-size: 2.6rem; padding: 40px 0; box-sizing: border-box;}
+  .tableDiv p { font-size: 1.4rem; padding: 30px 0; box-sizing: border-box;}
+  .tableDiv ul {  }
+  .tableDiv ul li { margin-left:7%; list-style: inherit; font-size:1rem; }
+
+  table { margin: 0 auto; width:98%; border-collapse: collapse;  text-align: center;}
+  tr { margin: 0; padding:0; }
+  td { border: 1px solid #000; margin: 0; padding:0; }
+  .table1 { background:silver; color:#39f; font-size: 1.2rem; font-weight:bold;}
+  .tb1 { width: 20%; font-size: 1.2rem;  }
+  .tb2 { width: 60%; font-size: 0.8rem; }
+  .tb3 { width: 20%; font-size: 0.8rem; }
+
+  .table2 { background:silver; color:#39f; font-size: 1.2rem; font-weight:bold; }
+  .tb21 { width:15%; font-size: 1.2rem; }
+  .tb22 { width:15%; font-size: 0.8rem;}
+  .tb23 { width:20%; font-size: 0.8rem;}
+  .tb24 { width:15%; font-size: 0.8rem;}
+  .tb25 { width:35%; font-size: 0.8rem;}
+
+  #certiWork { width: 100%; height: 700px; text-transform: uppercase; }
+  .certiWork1 { text-align: left; width:96%; margin: 0 auto; }
+  .certiWork1 h2 { font-size: 2.4rem; padding: 50px 0; }
+  .certiWork1 > p { font-size: 1rem; margin:5px 15px; }
+
+
+  .certican { margin: 70px 0; width:96%; }
+  .certican li { width: 46%; margin-left: 3%; float:left; }
+
+  .certiWork2 { width: 100%; height: 300px; border: 1px solid #000;}
+  .certiWork2 h3 { color:#fff; font-size: 1.4rem; text-align: center; width:100%; height: 80px; line-height:80px; background:#39f;
+                    border-bottom: 1px solid #000;  }
+  .certiWork2 ul {  }
+  .certiWork2 ul li { font-size: 0.8rem; margin-top: 15px; width:100%; }
+
+  .certiWork3 { width: 100%; height: 300px; border:1px solid #000; }
+  .certiWork3 h3 { color:#fff; font-size:1.4rem; text-align: center; width:100%; height:80px; line-height: 80px;
+                  background:#39f; border-bottom:1px solid #000;  }
+  .certiWork3 ul {  }
+  .certiWork3 ul li { font-size: 0.8rem; margin-top: 15px; width:100%; }
+
+
+}
+
+
+@media screen and ( max-width:800px ) {
+
+  body { max-width:800px; height:200vh; }
+  #header { background: rgba(0,0,0,0.5); height:65px }
+  #header h1{ position: fixed; top: -7px; left: 0; width:300px; height:60px; }
+  .gnbBtn { display: block; width:40px; height:40px; border: 1px solid #fff; border-radius: 10px 10px;
+            position: absolute; top:10px; left: 90%; text-indent: -9999px; overflow: hidden;
+            background:url(../images/menubtn1.png) no-repeat center /cover;}
+
+  #headerList { display:none; position:fixed; top:0; right:0; width:50%; height:100vh;  }
+
+  .headerUl { width:100%; margin: 0;  }
+
+
+  #headerTwo { display: block; z-index: 999; border-left: 1px solid #000;
+              position: fixed; top:65px; right:-50%;
+               width:50%; height:100%; background:#fff; }
+  #headerTwo h1 { display: none; }
+  #headerTwo h1 a { }
+  #headerTwo #headerListTwo .headerUlTwo { width:100%; text-transform: uppercase;}
+  #headerTwo #headerListTwo .headerUlTwo .listTwo { float:none; text-align: center;  }
+  #headerTwo #headerListTwo .headerUlTwo .listTwo > a { color:#fff; font-size:1.4rem; display:block; background:#39f;
+                                                        border:1px solid #000; width:100%; height:100%;
+                                                        float:none; text-align: center;}
+  #headerTwo #headerListTwo .headerUlTwo .subTwo { text-transform: uppercase;}
+  #headerTwo #headerListTwo .headerUlTwo .subTwo li { padding:2px 0; border-bottom: 1px solid #000;}
+  #headerTwo #headerListTwo .headerUlTwo .subTwo li a { color:#000; font-size: 1rem; }
+
+  .gnbBtn { display: block; width:40px; height:40px; border: 1px solid #fff; border-radius: 10px 10px;
+            position: fixed; top:10px; left: 92%; background:url(../images/menubtn1.png) no-repeat center /cover;}
+
+  #headerTwo #headerListTwo { width:100%; height:100vh; }
+
+  #certiTitle { width:100%; height:460px;
+                background:url(../images/certi1.jpg) no-repeat center / cover;
+                position:relative;  }
+  #certiTitle::before{ content:""; position: absolute; top:0;left:0;
+                        width:100%; height:460px; background:rgba(0,0,0,0.5);  }
+  .certi1 { width:90%; height:460px; margin: 0 auto; position:relative; }
+  .certi1 h2 { color:#fff; font-size:2.5rem;  padding-top:200px;
+              text-align: right; box-sizing: border-box;}
+  .certi1 p { color:#fff; font-size:1.5rem; text-transform: uppercase;
+              text-align: right; }
+
+  #certiSub { width:100%; height: 460px;
+             }
+  .certi2 { width:100%; height:460px; background:#fae0a3;
+            margin:0 auto; text-transform: uppercase;}
+  .certi2 h2 { margin-left:0%; font-size:2rem; text-align: center;padding:50px 0;  box-sizing: border-box;}
+  .certi2 h2 > span { color:#39f; font-size:2.2rem;}
+  .certi21 { width:90%; height:180px; background:#fff; margin:0 auto;
+            box-shadow: 3px 3px 10px #000;
+             margin-top:60px;  padding:30px 0; box-sizing: border-box;}
+  .certi21 p { text-align: center; font-size: 0.8rem; margin: 10px 0;}
+  .certi21 p span { text-decoration: underline; color:#39f;}
+
+  #certiJop { display: none;}
+
+
+  #tableDi { width:100%; text-transform: uppercase;}
+  .tableDiv { width:100%; margin: 0 auto; }
+  .tableDiv h2 { font-size: 2rem; text-align: center; color:#39f;
+                 padding: 30px 0; box-sizing: border-box;}
+  .tableDiv p { font-size: 1.1rem; margin-left:5%; padding: 30px 0; box-sizing: border-box;}
+  .tableDiv ul { width:90%; margin: 0 auto; }
+  .tableDiv ul li { margin-left:30px; list-style: inherit; font-size:1rem; }
+
+  table { margin: 0 auto; width:90%; border-collapse: collapse;  text-align: center; }
+  tr { margin: 0; padding:0; }
+  td { border: 1px solid #000; margin: 0; padding:0; }
+  .table1 { background:#39f; height:40px; line-height:40px;
+            color:#fff; font-size: 1.2rem; font-weight:bold;}
+  .tb1 { width: 20%; font-size: 1rem;  }
+  .tb2 { width: 60%; font-size: 0.8rem; }
+  .tb3 { width: 20%; font-size: 0.8rem; }
+
+  .table2 { background:#39f; height:40px; line-height:40px;
+            color:#fff; font-size: 1.2rem; font-weight:bold; }
+  .tb21 { width:15%; font-size:1rem; }
+  .tb22 { width:15%; font-size:0.8rem; }
+  .tb23 { width:20%; font-size:0.8rem; }
+  .tb24 { width:15%; font-size:0.8rem; }
+  .tb25 { width:35%; font-size:0.8rem; }
+
+  #certiWork { width: 100%; height: 960px; text-transform: uppercase;  }
+  .certiWork1 { text-align: left; width:100%; margin: 0 auto; }
+  .certiWork1 h2 { text-align: center; color:#fff; margin-top:50px; font-size: 1.8rem; padding: 50px 0;
+                  background:#39f;  }
+  .certiWork1 > p { font-size: 1.4rem; margin:10px 30px; text-align: center; }
+
+
+  .certican { width:100%; margin: 70px 0; }
+  .certican li { width: 90%; float:left;
+                margin-bottom:15px;  }
+
+  .certiWork2 { width: 80%; height: 270px; border: 1px solid #000; margin: 0 auto; }
+  .certiWork2 h3 { color:#fff; font-size: 1.1rem; text-align: center; width:100%; height: 70px;
+                    line-height:70px; background:#39f;
+                    border-bottom: 1px solid #000;  }
+  .certiWork2 ul {  }
+  .certiWork2 ul li { margin-left: 20px; font-size: 0.8rem; margin-top: 15px;
+                      line-height:10px;  }
+
+  .certiWork3 { width: 80%; height: 300px;
+                border:1px solid #000; margin: 0 auto; }
+  .certiWork3 h3 { color:#fff; font-size:1.1rem; text-align: center;
+                  width:100%; height:70px; line-height: 70px;
+                  background:#39f; border-bottom:1px solid #000;  }
+  .certiWork3 ul {  }
+  .certiWork3 ul li {  margin-left: 20px; font-size: 0.8rem; margin-top: 15px;
+                        line-height:10px;  }
+
+}
